@@ -1,0 +1,59 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  height: 30vh;
+}
+
+.App-header {
+  min-height: 30vh;
+  font-size: calc(10px + 2vmin);
+}
+
+.image img {
+  height: 50vh;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image h1 {
+  font-size: 4rem;
+  margin-left: -2rem;
+}
+
+
+.btn {
+  font-size: 1.5rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 1.3rem;
+  box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2), -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+  border: none;
+  margin: 2rem 0.5rem;
+}
+
+.default {
+  color: #f13c20;
+}
+
+.pressed {
+  box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+  color: #bb3c20;
+}
+
+.description {
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+.title {
+  margin-top: 4rem;
+}
